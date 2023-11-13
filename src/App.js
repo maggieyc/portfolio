@@ -9,7 +9,7 @@ import "./App.css"
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
       <div>
       
         {/* A <Switch> looks through its children <Route>s and
