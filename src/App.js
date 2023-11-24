@@ -1,15 +1,16 @@
 import React from "react";
+import "./App.css"
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
-import "./App.css"
+import AnimatedPage from "./AnimatedPage"
 
 export default function App() {
   return (
-    <Router basename={ProcessingInstruction.env.PUBLIC_URL}>
+    <Router>
       <div>
       
         {/* A <Switch> looks through its children <Route>s and
@@ -26,21 +27,36 @@ export default function App() {
 
 function Landing() {
   return (
-    <div>
-      <h1>Maggie Chen</h1>
-      <Link to="/about">Arrow</Link>
-    </div>);
+    <AnimatedPage>
+      <div className="container">
+        <h1>Maggie Chen</h1>
+        <Link to="/about">arrow</Link>
+      </div>
+    </AnimatedPage>
+    );
 }
 
 function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <Link to="/projects">Arrow</Link>
-    </div>
+    <AnimatedPage>
+      <div className="container">
+        <h1>About</h1>
+        <div>
+          <Link to="/">&rarr</Link>
+          <Link to="/projects">&rarr</Link>
+        </div>
+      </div>
+    </AnimatedPage>
   );
 }
 
 function Projects() {
-  return <h2>Users</h2>;
+  return (
+    <AnimatedPage>
+      <div className="container">
+        <h2>Users</h2>
+        <Link to="/about">&rarr</Link>
+      </div>
+    </AnimatedPage>
+    );
 }
