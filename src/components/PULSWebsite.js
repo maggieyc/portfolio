@@ -19,7 +19,7 @@ export default function PULSWebsite(){
       <br />
       <h3>Demo:</h3>
       <div>
-        <video loop playsinline muted autoPlay className="demo-video">
+        <video loop playsInline muted autoPlay className="demo-video">
           <source  src="videos\puls-demo.mov" type="video/mp4"/>
         </video>
       </div>
