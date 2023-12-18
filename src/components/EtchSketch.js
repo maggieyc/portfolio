@@ -8,7 +8,7 @@ export default function EtchSketch(){
       <p>The Odin Project.</p>
       <p>Fun Fact: I created the background on Inkscape!</p>
       <p>(Click below and play with arrow keys)</p>
-      <iframe src="https://maggieyc.github.io/odin-etch-a-sketch/"></iframe>
+      <iframe title="Etch-A-Sketch" src="https://maggieyc.github.io/odin-etch-a-sketch/"></iframe>
       <br />
       <br />
       <br />

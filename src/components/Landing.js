@@ -10,7 +10,7 @@ export default function Landing() {
         </div>
       </AnimatedPage>
       <Link to="/about">
-        <img src="images\arrow-right.svg" class="arrow-button interactive"></img>
+        <img src="images\arrow-right.svg" class="arrow-button interactive" alt="right arrow"></img>
       </Link>
     </div>
   );

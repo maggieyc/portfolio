@@ -1,10 +1,5 @@
 import AnimatedPage from "./AnimatedPage";
 import {Link} from "react-router-dom";
-import PULSWebsite from "./PULSWebsite";
-import { useState } from "react";
-
-
-
 
 export default function Projects() {
   return (
@@ -37,10 +32,10 @@ export default function Projects() {
       </AnimatedPage>
       <div>
         <Link to="/about">
-            <img src="images\arrow-left.svg" class="arrow-button interactive"></img>
+            <img src="images\arrow-left.svg" class="arrow-button interactive" alt="left arrow"></img>
           </Link>
           <Link to="/art">
-            <img src="images\arrow-right.svg" class="arrow-button interactive"></img>
+            <img src="images\arrow-right.svg" class="arrow-button interactive" alt="right arrow"></img>
           </Link>
       </div>
     </div>

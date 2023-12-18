@@ -24,7 +24,7 @@ export default function Contact(){
       </AnimatedPage>
       <div>
         <Link to="/art">
-          <img src="images\arrow-left.svg" class="arrow-button interactive"></img>
+          <img src="images\arrow-left.svg" class="arrow-button interactive" alt="left arrow"></img>
         </Link>
       </div>
     </div>

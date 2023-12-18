@@ -7,7 +7,7 @@ export default function About() {
       <AnimatedPage>
         <div className="text col-12">
           <div className="img-container col-6">
-            <img src='images\headshot.jpg' className="headshot interactive"></img>
+            <img src='images\headshot.jpg' className="headshot interactive" alt="Maggie's Headshot"></img>
           </div>
           <AnimatedPage className="col-6">
             <h2>Hi! I'm Maggie.</h2>
@@ -19,10 +19,10 @@ export default function About() {
       </AnimatedPage>
       <div>
         <Link to="/">
-          <img src="images\arrow-left.svg" class="arrow-button interactive"></img>
+          <img src="images\arrow-left.svg" class="arrow-button interactive" alt="left arrow"></img>
         </Link>
         <Link to="/projects">
-          <img src="images\arrow-right.svg" class="arrow-button interactive"></img>
+          <img src="images\arrow-right.svg" class="arrow-button interactive" alt="right arrow"></img>
         </Link>
       </div>
     </div>
