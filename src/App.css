@@ -85,7 +85,7 @@ h1{
 }
 
 .gallery-img{
-  width:200px;
+  width:150px;
   margin: 20px;
 }
 
@@ -101,5 +101,9 @@ iframe{
 @media (max-width: 800px) {
   .text{
     flex-direction: column;
+  }
+
+  .gallery-img{
+    width: 120px;
   }
 }

@@ -11,7 +11,7 @@ export default function Contact(){
             <ul className="list">
               <li >
                 <h3>
-                  <a className="interactive link" href="https://github.com/maggieyc">GitHub</a>
+                  <a className="interactive link" href="https://github.com/maggieyc">GitHub: @maggieyc</a>
                 </h3>
               </li>
 
