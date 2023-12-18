@@ -9,8 +9,8 @@ export default function PULSWebsite(){
       <p>COMP307 (Web Development) | Fall 2023</p>
       <p>
         Goal: Create a fast website for the Physiology Undergraduate League of Students (PULS)
-        with admin capabilites. Before this project, the PULS council
-        went directly into source code to make updates to the website, we created a simple UI for them
+        with admin capabilites. The PULS council currently
+        goes directly into source code to make updates to the website, we created a simple UI for them
         to make changes without doing so!
       </p>
 

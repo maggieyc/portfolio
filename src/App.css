@@ -16,6 +16,14 @@ h1{
   text-align: center;
 }
 
+.gallery-container{
+  width: 50vw;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .text, .title{
   width: 50vw;
   height: 70vh;
@@ -79,7 +87,7 @@ h1{
 .gallery{
   display: flex;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
