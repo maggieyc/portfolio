@@ -86,15 +86,19 @@ h1{
 
 .gallery{
   display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
+  flex-wrap: wrap;
+  height: 50vh;
   align-items: center;
 }
 
 .gallery-img{
-  width:150px;
-  margin: 20px;
+  height: 25vh;
+  margin: 10px;
+  transition:all .2s ease-in-out
+}
+
+.gallery-img:hover{
+  transform: scale(2);
 }
 
 iframe{
@@ -112,6 +116,10 @@ iframe{
   }
 
   .gallery-img{
-    width: 120px;
+    height: 16vh;
+  }
+
+  .gallery-img:hover{
+    transform:none;
   }
 }
