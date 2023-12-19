@@ -33,6 +33,10 @@ h1{
   align-items: center;
 }
 
+.page-image{
+  width:100%;
+}
+
 .arrow-button{
   width: 30px;
 }
