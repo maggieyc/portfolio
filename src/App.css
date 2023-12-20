@@ -121,11 +121,17 @@ iframe{
   }
 
   .gallery-img{
-    height: 17vh;
+    height: 20vh;
     margin: 2px;
   }
 
   .gallery-img:hover{
     transform:none;
+  }
+}
+
+@media(max-width: 550px){
+  .gallery-img{
+    height: 16vh;
   }
 }
