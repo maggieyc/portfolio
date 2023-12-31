@@ -31,8 +31,6 @@ export default function PULSWebsite(){
         we also hope to add a sleek new look, add additional pages and deploy the website
         in the next few months.
       </p>
-      <img src="images\puls-wireframe.jpg" alt="puls website wireframe"  className="page-image"/>
-
       <br />
       <br />
     </div>
