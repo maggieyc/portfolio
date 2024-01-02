@@ -24,14 +24,6 @@ export default function PULSWebsite(){
         </video>
       </div>
       <br />
-
-      <h3>Wireframe:</h3>
-      <p>
-        Note: Only the blog, calendar and login have been implemented so far,
-        we also hope to add a sleek new look, add additional pages and deploy the website
-        in the next few months.
-      </p>
-      <br />
       <br />
     </div>
   )
