@@ -13,6 +13,7 @@ export default function Art(){
               <img src="images\man-in-chair.jpg" className="gallery-img" alt="painting of a man in chair"></img>
               <img src="images\saxophone.jpg" className="gallery-img" alt="painting of a man playing saxophone"></img>
               <img src="images\underwater.jpg" className="gallery-img" alt="painting of an underwater city"></img>
+              <img src="images\bares.jpg" className="gallery-img" alt="sketch of the three bares statue"></img>
               <img src="images\beaver-tails.jpg" className="gallery-img" alt="painting of byward market in Ottawa"></img>
             </div>
           </AnimatedPage>
