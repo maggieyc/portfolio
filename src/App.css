@@ -99,11 +99,6 @@ h1{
 .gallery-img{
   height: 25vh;
   margin: 10px;
-  transition: all .2s ease-in-out
-}
-
-.gallery-img:hover{
-  transform: scale(2);
 }
 
 iframe{
