@@ -19,7 +19,7 @@ import Hackathon from "./components/Hackathon";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div>
       
         {/* A <Switch> looks through its children <Route>s and
