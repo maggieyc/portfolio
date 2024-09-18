@@ -13,6 +13,7 @@ import About from "./components/About";
 import Art from "./components/Art";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
+import RCMP from "./components/RCMP";
 
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/etch-a-sketch" element={<EtchSketch />}></Route>
           <Route path="/guidebook" element={<Guidebook />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/rcmp" element={<RCMP />}></Route>
         </Routes>
       </div>
     </Router>

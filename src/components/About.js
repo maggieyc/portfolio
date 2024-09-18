@@ -13,7 +13,7 @@ export default function About() {
             <h2>Hi! I'm Maggie.</h2>
             <p>I'm a 4th year Computer Science student at McGill University.</p>
             <p>Hometown: Ottawa, ON</p>
-            <p>My favorite things: my family, my friends, art, books, travel, nature and sports.</p>
+            <p>My favorite things: my family, my friends, art, photography, food, travel, and volleyball!</p>
           </AnimatedPage>
         </div>
       </AnimatedPage>

@@ -6,9 +6,14 @@ export default function Projects() {
     <div className="container">
       <AnimatedPage>
         <div className="text">
-          <h2>Projects</h2>
+          <h2>Projects and Experience</h2>
           <AnimatedPage>
             <ul className="list">
+              <li>
+                <Link to='/rcmp' className="link">
+                  <h3 className="project interactive">RCMP</h3>
+                </Link>
+              </li>
               <li>
                 <Link to="/puls" className="link">
                    <h3 className="project interactive puls">PULS McGill Website</h3>
