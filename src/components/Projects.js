@@ -1,12 +1,21 @@
 import AnimatedPage from "./AnimatedPage";
 import {Link} from "react-router-dom";
+import Typewriter from "typewriter-effect"
 
 export default function Projects() {
   return (
     <div className="container">
       <AnimatedPage>
         <div className="text">
-          <h2>Projects and Experience</h2>
+          <div className="subtitle">
+              <Typewriter
+                  onInit={(typewriter) => {
+                      typewriter
+                          .typeString("Projects and Experience")
+                          .start();
+                  }}
+              />
+            </div>
           <AnimatedPage>
             <ul className="list">
               <li>
@@ -35,7 +44,7 @@ export default function Projects() {
           </AnimatedPage>
         </div>
       </AnimatedPage>
-      <div>
+      <div className="arrows">
         <Link to="/about">
             <img src="images\arrow-left.svg" class="arrow-button interactive" alt="left arrow"></img>
           </Link>

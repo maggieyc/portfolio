@@ -8,10 +8,9 @@ export default function PULSWebsite(){
       <p>By: Maggie Chen, Tess Gomper, Vanessa Akhras</p>
       <p>COMP307 (Web Development) | Fall 2023</p>
       <p>
-        Goal: Create a fast website for the Physiology Undergraduate League of Students (PULS)
-        with admin capabilites. The PULS council currently
-        goes directly into source code to make updates to the website, we created a simple UI for them
-        to make changes without doing so!
+        The goal of this project was to create a fast website for the Physiology Undergraduate League of Students (PULS)
+        with admin capabilites. The PULS council originally went directly into source code to make updates to the website,
+        our team created a simple UI for them to make changes without doing so!
       </p>
 
       <p>GitHub repo: <a className="interactive link" href="https://github.com/tgompper1/PULS-website">https://github.com/tgompper1/PULS-website</a></p>
