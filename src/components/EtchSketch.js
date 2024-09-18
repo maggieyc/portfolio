@@ -8,7 +8,7 @@ export default function EtchSketch(){
       <p>By: Maggie Chen</p>
       <p>The Odin Project | 2023</p>
       <p>
-        Over the summer of 2023 I tasked myself with learning the basics of web development.
+        Over the summer of 2023 I tasked myself with learning refining my skills in web development.
         I followed the popular course "the Odin Project" and created a number of projects using HTML/CSS, Javascript and React.
       </p>
       <p>Fun Fact: I also created the background on Inkscape!</p>

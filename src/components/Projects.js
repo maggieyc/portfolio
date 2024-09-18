@@ -7,7 +7,7 @@ export default function Projects() {
     <div className="container">
       <AnimatedPage>
         <div className="text">
-          <div className="subtitle">
+          <div className="subtitle half-title">
               <Typewriter
                   onInit={(typewriter) => {
                       typewriter

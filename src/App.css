@@ -80,6 +80,7 @@ h1, .title{
 
 .page-title{
   font-size: 50px;
+  color: purple;
 }
 
 .page-container{
@@ -120,6 +121,11 @@ h1, .title{
 
 .image{
   width: 50vw;
+}
+
+.half-title{
+  width: 50%;
+  text-align: center;
 }
 
 iframe{
