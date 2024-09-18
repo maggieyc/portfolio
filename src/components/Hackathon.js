@@ -15,7 +15,9 @@ export default function Hackathon(){
         The following year, I was in charge ot leading meetings, delegating tasks, and venue logistics. Hack McWiCS was a great success, with sponsors and hackers a like giving us positive feedback!
       </p>
 
-      <img src="images\mcwics.jpg" className="image" alt="McGill Women in Computer Science team"></img>
+      <div className="img-container">
+        <img src="images\mcwics.jpg" className="image" alt="McGill Women in Computer Science team"></img>
+      </div>
 
       <br />
       <br />
