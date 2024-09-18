@@ -14,6 +14,7 @@ import Art from "./components/Art";
 import Contact from "./components/Contact";
 import Landing from "./components/Landing";
 import RCMP from "./components/RCMP";
+import Hackathon from "./components/Hackathon";
 
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/guidebook" element={<Guidebook />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/rcmp" element={<RCMP />}></Route>
+          <Route path="/hackathon" element={<Hackathon />}></Route>
         </Routes>
       </div>
     </Router>

@@ -24,6 +24,11 @@ export default function Projects() {
                 </Link>
               </li>
               <li>
+                <Link to='/hackathon' className="link">
+                  <h3 className="project interactive">Hack McWiCS</h3>
+                </Link>
+              </li>
+              <li>
                 <Link to="/puls" className="link">
                    <h3 className="project interactive puls">PULS McGill Website</h3>
                 </Link>

@@ -118,6 +118,10 @@ h1, .title{
   right:49vw;
 }
 
+.image{
+  width: 50vw;
+}
+
 iframe{
   width:100%;
   height:85vh;
