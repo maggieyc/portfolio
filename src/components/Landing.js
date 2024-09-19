@@ -21,7 +21,7 @@ export default function Landing() {
       </AnimatedPage>
       <div class="arrows">
         <Link to="/about">
-          <img src="images\arrow-right.svg" class="arrow-button interactive" alt="right arrow"></img>
+          <img src={`${process.env.PUBLIC_URL}/images/arrow-right.svg`} class="arrow-button interactive" alt="right arrow"></img>
         </Link>
       </div>
     </div>

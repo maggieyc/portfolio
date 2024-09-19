@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css"
 import {
-  HashRouter as Router,
-  Switch,
+  BrowserRouter as Router,
+  Routes,
   Route,
 } from "react-router-dom";
 import PULSWebsite from "./components/PULSWebsite";
@@ -20,18 +20,18 @@ import Hackathon from "./components/Hackathon";
 export default function App() {
   return (
     <Router>
-        <Switch>
-          <Route path="/" exact component={Landing}/>
-          <Route path="/about" component={About}/>
-          <Route path="/art" component={Art}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/puls" component={PULSWebsite}/>
-          <Route path="/etch-a-sketch" component={EtchSketch}/>
-          <Route path="/guidebook" component={Guidebook}/>
-          <Route path="/contact" component={Contact}/>
-          <Route path="/rcmp" component={RCMP}/>
-          <Route path="/hackathon" component={Hackathon}/>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Landing />}/>
+          <Route path="/about" element={<About />}/>
+          <Route path="/art" element={<Art />}/>
+          <Route path="/projects" element={<Projects />}/>
+          <Route path="/puls" element={<PULSWebsite />}/>
+          <Route path="/etch-a-sketch" element={<EtchSketch />}/>
+          <Route path="/guidebook" element={<Guidebook />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/rcmp" element={<RCMP />}/>
+          <Route path="/hackathon" element={<Hackathon />}/>
+        </Routes>
     </Router>
   );
 }

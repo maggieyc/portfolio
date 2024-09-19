@@ -50,7 +50,7 @@ export default function Projects() {
         </div>
       </AnimatedPage>
       <div className="arrows">
-        <Link to="/about">
+          <Link to="/about">
             <img src="images\arrow-left.svg" class="arrow-button interactive" alt="left arrow"></img>
           </Link>
           <Link to="/art">
